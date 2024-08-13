@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>¡Redirigiendo!</title>
+</head>
+<body>
+
+<script>
+  function redirectToInstagram() {
+    var isMobile = /Mobi|Android/i.test(navigator.userAgent);
+    var url = isMobile ? 'https://www.instagram.com/' : 'https://www.instagram.com/';
+    window.location.href = url;
+  }
+
+  redirectToInstagram();
+</script>
+
+</body>
+</html>
+`
